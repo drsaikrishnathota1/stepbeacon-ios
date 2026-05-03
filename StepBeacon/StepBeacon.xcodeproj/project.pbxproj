@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B10000000000000000000001 /* StepBeaconApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000001 /* StepBeaconApp.swift */; };
+		B10000000000000000000002 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000002 /* Models.swift */; };
+		B10000000000000000000003 /* ActivityStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000003 /* ActivityStore.swift */; };
+		B10000000000000000000004 /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000004 /* SettingsStore.swift */; };
+		B10000000000000000000005 /* MotionAccessManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000005 /* MotionAccessManager.swift */; };
+		B10000000000000000000006 /* StepInsights.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000006 /* StepInsights.swift */; };
+		B10000000000000000000007 /* StepDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000007 /* StepDataProvider.swift */; };
+		B10000000000000000000008 /* AchievementEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000008 /* AchievementEngine.swift */; };
+		B10000000000000000000009 /* StepTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000009 /* StepTheme.swift */; };
+		B1000000000000000000000A /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000000000000000000000A /* RootTabView.swift */; };
+		B1000000000000000000000B /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000000000000000000000B /* DashboardView.swift */; };
+		B1000000000000000000000C /* TrendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000000000000000000000C /* TrendsView.swift */; };
+		B1000000000000000000000D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000000000000000000000D /* SettingsView.swift */; };
+		B1000000000000000000000E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2000000000000000000000E /* Assets.xcassets */; };
+		B1000000000000000000000F /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2000000000000000000000F /* CoreMotion.framework */; };
+		B10000000000000000000012 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000012 /* PrivacyInfo.xcprivacy */; };
+		B10000000000000000000013 /* AppLaunchConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000013 /* AppLaunchConfiguration.swift */; };
+		T10000000000000000000001 /* StepInsightsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = T20000000000000000000001 /* StepInsightsTests.swift */; };
+		U10000000000000000000002 /* StepBeaconUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = U20000000000000000000002 /* StepBeaconUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		T80000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B60000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B50000000000000000000001;
+			remoteInfo = StepBeacon;
+		};
+		U80100000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B60000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B50000000000000000000001;
+			remoteInfo = StepBeacon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B20000000000000000000001 /* StepBeaconApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepBeaconApp.swift; sourceTree = "<group>"; };
+		B20000000000000000000002 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		B20000000000000000000003 /* ActivityStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityStore.swift; sourceTree = "<group>"; };
+		B20000000000000000000004 /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
+		B20000000000000000000005 /* MotionAccessManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAccessManager.swift; sourceTree = "<group>"; };
+		B20000000000000000000006 /* StepInsights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepInsights.swift; sourceTree = "<group>"; };
+		B20000000000000000000007 /* StepDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepDataProvider.swift; sourceTree = "<group>"; };
+		B20000000000000000000008 /* AchievementEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementEngine.swift; sourceTree = "<group>"; };
+		B20000000000000000000009 /* StepTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepTheme.swift; sourceTree = "<group>"; };
+		B2000000000000000000000A /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		B2000000000000000000000B /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		B2000000000000000000000C /* TrendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendsView.swift; sourceTree = "<group>"; };
+		B2000000000000000000000D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B2000000000000000000000E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2000000000000000000000F /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		B20000000000000000000010 /* StepBeacon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StepBeacon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20000000000000000000011 /* StepBeacon.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StepBeacon.entitlements; sourceTree = "<group>"; };
+		B20000000000000000000012 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		B20000000000000000000013 /* AppLaunchConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLaunchConfiguration.swift; sourceTree = "<group>"; };
+		T20000000000000000000001 /* StepInsightsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepInsightsTests.swift; sourceTree = "<group>"; };
+		T20000000000000000000012 /* StepBeaconTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StepBeaconTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		U20000000000000000000002 /* StepBeaconUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepBeaconUITests.swift; sourceTree = "<group>"; };
+		U20000000000000000000014 /* StepBeaconUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StepBeaconUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B30000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1000000000000000000000F /* CoreMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		T30000000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		U30000000000000000000003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		327286732FA6D055008B3E35 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				B2000000000000000000000F /* CoreMotion.framework */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		B40000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				B40000000000000000000002 /* StepBeacon */,
+				T40000000000000000000004 /* StepBeaconTests */,
+				U40000000000000000000005 /* StepBeaconUITests */,
+				B40000000000000000000003 /* Products */,
+				327286732FA6D055008B3E35 /* Recovered References */,
+			);
+			sourceTree = "<group>";
+		};
+		B40000000000000000000002 /* StepBeacon */ = {
+			isa = PBXGroup;
+			children = (
+				B20000000000000000000001 /* StepBeaconApp.swift */,
+				B20000000000000000000002 /* Models.swift */,
+				B20000000000000000000003 /* ActivityStore.swift */,
+				B20000000000000000000004 /* SettingsStore.swift */,
+				B20000000000000000000005 /* MotionAccessManager.swift */,
+				B20000000000000000000006 /* StepInsights.swift */,
+				B20000000000000000000007 /* StepDataProvider.swift */,
+				B20000000000000000000008 /* AchievementEngine.swift */,
+				B20000000000000000000009 /* StepTheme.swift */,
+				B2000000000000000000000A /* RootTabView.swift */,
+				B2000000000000000000000B /* DashboardView.swift */,
+				B2000000000000000000000C /* TrendsView.swift */,
+				B2000000000000000000000D /* SettingsView.swift */,
+				B20000000000000000000013 /* AppLaunchConfiguration.swift */,
+				B2000000000000000000000E /* Assets.xcassets */,
+				B20000000000000000000011 /* StepBeacon.entitlements */,
+				B20000000000000000000012 /* PrivacyInfo.xcprivacy */,
+			);
+			path = StepBeacon;
+			sourceTree = "<group>";
+		};
+		B40000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B20000000000000000000010 /* StepBeacon.app */,
+				T20000000000000000000012 /* StepBeaconTests.xctest */,
+				U20000000000000000000014 /* StepBeaconUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		T40000000000000000000004 /* StepBeaconTests */ = {
+			isa = PBXGroup;
+			children = (
+				T20000000000000000000001 /* StepInsightsTests.swift */,
+			);
+			path = StepBeaconTests;
+			sourceTree = "<group>";
+		};
+		U40000000000000000000005 /* StepBeaconUITests */ = {
+			isa = PBXGroup;
+			children = (
+				U20000000000000000000002 /* StepBeaconUITests.swift */,
+			);
+			path = StepBeaconUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B50000000000000000000001 /* StepBeacon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B50000000000000000000002 /* Build configuration list for PBXNativeTarget "StepBeacon" */;
+			buildPhases = (
+				B50000000000000000000003 /* Sources */,
+				B30000000000000000000001 /* Frameworks */,
+				B50000000000000000000004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StepBeacon;
+			productName = StepBeacon;
+			productReference = B20000000000000000000010 /* StepBeacon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		T50000000000000000000005 /* StepBeaconTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = T90000000000000000000001 /* Build configuration list for PBXNativeTarget "StepBeaconTests" */;
+			buildPhases = (
+				T50000000000000000000006 /* Sources */,
+				T30000000000000000000002 /* Frameworks */,
+				T50000000000000000000007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				T80000000000000000000002 /* PBXTargetDependency */,
+			);
+			name = StepBeaconTests;
+			productName = StepBeaconTests;
+			productReference = T20000000000000000000012 /* StepBeaconTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		U50000000000000000000009 /* StepBeaconUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = U90300000000000000000001 /* Build configuration list for PBXNativeTarget "StepBeaconUITests" */;
+			buildPhases = (
+				U50000000000000000000010 /* Sources */,
+				U30000000000000000000003 /* Frameworks */,
+				U50000000000000000000011 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				U80200000000000000000001 /* PBXTargetDependency */,
+			);
+			name = StepBeaconUITests;
+			productName = StepBeaconUITests;
+			productReference = U20000000000000000000014 /* StepBeaconUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B60000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					B50000000000000000000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					T50000000000000000000005 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = B50000000000000000000001;
+					};
+					U50000000000000000000009 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = B50000000000000000000001;
+					};
+				};
+			};
+			buildConfigurationList = B60000000000000000000002 /* Build configuration list for PBXProject "StepBeacon" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B40000000000000000000001;
+			productRefGroup = B40000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B50000000000000000000001 /* StepBeacon */,
+				T50000000000000000000005 /* StepBeaconTests */,
+				U50000000000000000000009 /* StepBeaconUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B50000000000000000000004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1000000000000000000000E /* Assets.xcassets in Resources */,
+				B10000000000000000000012 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		T50000000000000000000007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		U50000000000000000000011 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B50000000000000000000003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10000000000000000000001 /* StepBeaconApp.swift in Sources */,
+				B10000000000000000000002 /* Models.swift in Sources */,
+				B10000000000000000000003 /* ActivityStore.swift in Sources */,
+				B10000000000000000000004 /* SettingsStore.swift in Sources */,
+				B10000000000000000000005 /* MotionAccessManager.swift in Sources */,
+				B10000000000000000000006 /* StepInsights.swift in Sources */,
+				B10000000000000000000007 /* StepDataProvider.swift in Sources */,
+				B10000000000000000000008 /* AchievementEngine.swift in Sources */,
+				B10000000000000000000009 /* StepTheme.swift in Sources */,
+				B1000000000000000000000A /* RootTabView.swift in Sources */,
+				B1000000000000000000000B /* DashboardView.swift in Sources */,
+				B1000000000000000000000C /* TrendsView.swift in Sources */,
+				B1000000000000000000000D /* SettingsView.swift in Sources */,
+				B10000000000000000000013 /* AppLaunchConfiguration.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		T50000000000000000000006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				T10000000000000000000001 /* StepInsightsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		U50000000000000000000010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				U10000000000000000000002 /* StepBeaconUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		T80000000000000000000002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B50000000000000000000001 /* StepBeacon */;
+			targetProxy = T80000000000000000000001 /* PBXContainerItemProxy */;
+		};
+		U80200000000000000000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B50000000000000000000001 /* StepBeacon */;
+			targetProxy = U80100000000000000000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B70000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B70000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B70000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StepBeacon/StepBeacon.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q976JY4DNU;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "StepBeacon";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSMotionUsageDescription = "StepBeacon uses Motion & Fitness activity to read your daily steps, distance walked, and stairs climbed.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.drsaikrishnathota1.stepbeacon;
+				PRODUCT_NAME = StepBeacon;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B70000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StepBeacon/StepBeacon.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q976JY4DNU;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "StepBeacon";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSMotionUsageDescription = "StepBeacon uses Motion & Fitness activity to read your daily steps, distance walked, and stairs climbed.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.drsaikrishnathota1.stepbeacon;
+				PRODUCT_NAME = StepBeacon;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		T70000000000000000000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q976JY4DNU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.drsaikrishnathota1.stepbeaconTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StepBeacon.app/StepBeacon";
+			};
+			name = Debug;
+		};
+		T70000000000000000000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q976JY4DNU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.drsaikrishnathota1.stepbeaconTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StepBeacon.app/StepBeacon";
+			};
+			name = Release;
+		};
+		U70100000000000000000009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q976JY4DNU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.drsaikrishnathota1.stepbeaconUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = StepBeacon;
+			};
+			name = Debug;
+		};
+		U70100000000000000000010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q976JY4DNU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.drsaikrishnathota1.stepbeaconUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = StepBeacon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B50000000000000000000002 /* Build configuration list for PBXNativeTarget "StepBeacon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B70000000000000000000003 /* Debug */,
+				B70000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B60000000000000000000002 /* Build configuration list for PBXProject "StepBeacon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B70000000000000000000001 /* Debug */,
+				B70000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		T90000000000000000000001 /* Build configuration list for PBXNativeTarget "StepBeaconTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				T70000000000000000000005 /* Debug */,
+				T70000000000000000000006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		U90300000000000000000001 /* Build configuration list for PBXNativeTarget "StepBeaconUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				U70100000000000000000009 /* Debug */,
+				U70100000000000000000010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B60000000000000000000001 /* Project object */;
+}
